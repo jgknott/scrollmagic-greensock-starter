@@ -1,0 +1,52 @@
+{
+  "name": "scrollmagic-greensocker-starter",
+  "version": "1.0.0",
+  "description": "A starter template for getting scrollmagic and greensock projects going",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base ./dist --config webpack.config.js ",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgknott/scrollmagic-greensock-starter.git"
+  },
+  "keywords": [
+    "scrollmagic",
+    "greensock",
+    "boilerplate",
+    "starter",
+    "animation",
+    "scrolling"
+  ],
+  "author": "Jason Knott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgknott/scrollmagic-greensock-starter/issues"
+  },
+  "homepage": "https://github.com/jgknott/scrollmagic-greensock-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.3",
+    "gsap": "^1.19.0",
+    "html-webpack-plugin": "^2.22.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^3.1.0",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.11.0",
+    "sass-loader": "^4.0.0",
+    "scrollmagic": "^2.0.5",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.15.0",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
